@@ -5,13 +5,13 @@ Movie ticket booking web application with MERN stack (MongoDB, Express, React, N
 
 ## Technologies
 * React JS
-* Tailwind CSS v3.3.3
-* Vite v4.4.8
+* Tailwind CSS
+* Vite
 * NodeJS
-* Mongoose v7.4.2
-* Express v4.18.2
+* Mongoose
+* Express
 * MongoDB
-* Docker v3.4
+* Docker
 
 ## Guide
 
@@ -25,3 +25,17 @@ There are 3 roles on this website with corresponding permissions:
 |👤 User   | **1. All Viewer permissions** <br> **2. Purchase tickets on the showtime page** <br> **3. View purchased tickets on the ticket page**|
 |👑 Admin   | **1. All User permissions** <br> **2. View all showtimes for any date** <br> **3. Manage cinemas** <br> **4. Manage theaters** <br> &emsp;- View theater's row, column, seats information <br> **5. Manage showtimes** <br> &emsp;- Search & filter & sort showtimes <br> &emsp;- View details of booked seats <br> **6. Manage movies** <br> **7. Manage user & admin**|
 
+## How to run the app
+1. Download the code
+2. Start server side
+```
+cd server
+npm install
+npm start
+```
+3. Start client side
+```
+cd client
+npm install
+npm run dev
+```
